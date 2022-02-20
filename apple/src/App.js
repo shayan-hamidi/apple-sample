@@ -2,7 +2,7 @@ import "./App.css";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Nav from "./components/Nav/Nav";
-
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -33,6 +33,7 @@ function App() {
           store’s services.
         </Link>
       </Typography>
+      <Footer/>
     </>
   );
 }
