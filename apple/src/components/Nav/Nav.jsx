@@ -1,8 +1,5 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import SearchIcon from "@mui/icons-material/Search";
@@ -18,6 +15,7 @@ const Nav = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          position:"sticky"
         }}
       >
         <List
