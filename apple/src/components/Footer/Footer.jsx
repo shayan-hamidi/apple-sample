@@ -2,6 +2,7 @@ import ListItem from "@mui/material/ListItem";
 import Box from "@mui/material/Box";
 import ListItemText from "@mui/material/ListItemText";
 import Link from "@mui/material/Link";
+import FooterLists from "./FooterLists";
 import { Typography } from "@mui/material";
 
 const Footer = () => {
@@ -57,11 +58,21 @@ const Footer = () => {
           width: "65%",
           borderBottom: "1px solid #d2d2d7",
           borderTop: "1px solid #d2d2d7",
+          marginBottom: "2rem",
+          paddingBottom: "0.5rem",
         }}
       >
-        <Box></Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
+          <FooterLists />
+        </Box>
         <Box>
-          <Typography  sx={{fontSize:"0.79rem",color:"#6e6e73"}}>
+          <Typography sx={{ fontSize: "0.79rem", color: "#6e6e73" }}>
             More ways to shop:{" "}
             <Link
               sx={{
