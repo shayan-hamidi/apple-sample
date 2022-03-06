@@ -1,6 +1,7 @@
 body{
   padding: 0px;
   margin: 0px;
+  height: 1200px;
 }
 footer{
   background-color: #f5f5f7;
@@ -10,7 +11,8 @@ footer{
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 0;
+  bottom: 0 !important;
+  top: 55rem;
 }
 footer ul div span{
   font-size: 0.7rem !important;

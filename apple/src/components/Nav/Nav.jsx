@@ -15,7 +15,7 @@ const Nav = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          position:"sticky"
+          position:"fixed"
         }}
       >
         <List

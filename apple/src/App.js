@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Typography sx={{ textAlign: "center", padding: "0.9rem 0rem 0.9rem 0rem",fontSize:"0.9rem",backgroundColor:"rgba(245,245,247,1)"}}>
+      <Typography sx={{ textAlign: "center", padding: "3.9rem 0rem 0.9rem 0rem",fontSize:"0.9rem",backgroundColor:"rgba(245,245,247,1)"}}>
         <Link
           href="https://www.apple.com/us/shop/goto/shop"
           sx={{
